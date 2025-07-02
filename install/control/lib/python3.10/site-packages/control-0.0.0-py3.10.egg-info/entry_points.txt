@@ -1,0 +1,6 @@
+[console_scripts]
+encoder_speed_node = control.encoder_speed_node:main
+fake_odom_publisher = control.fake_odom_publisher:main
+functions = control.functions:main
+logic = control.logic:main
+odom_node = control.odom_node:main

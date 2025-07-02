@@ -1,0 +1,49 @@
+[1.019s] Invoking command in '/home/essam/mr_ws/src/control': PYTHONPATH=/home/essam/mr_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/essam/mr_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/essam/mr_ws/build/control/build install --record /home/essam/mr_ws/build/control/install.log --single-version-externally-managed install_data
+[1.317s] running egg_info
+[1.337s] creating ../../build/control/control.egg-info
+[1.338s] writing ../../build/control/control.egg-info/PKG-INFO
+[1.338s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[1.339s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[1.339s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[1.339s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[1.339s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.384s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.385s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[1.385s] running build
+[1.385s] running build_py
+[1.386s] creating /home/essam/mr_ws/build/control/build/lib/control
+[1.386s] copying control/functions.py -> /home/essam/mr_ws/build/control/build/lib/control
+[1.386s] copying control/fake_odom_publisher.py -> /home/essam/mr_ws/build/control/build/lib/control
+[1.387s] copying control/odom_node.py -> /home/essam/mr_ws/build/control/build/lib/control
+[1.387s] copying control/logic.py -> /home/essam/mr_ws/build/control/build/lib/control
+[1.387s] copying control/encoder_speed_node.py -> /home/essam/mr_ws/build/control/build/lib/control
+[1.387s] copying control/__init__.py -> /home/essam/mr_ws/build/control/build/lib/control
+[1.388s] running install
+[1.393s] running install_lib
+[1.414s] creating /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control
+[1.415s] copying /home/essam/mr_ws/build/control/build/lib/control/functions.py -> /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control
+[1.415s] copying /home/essam/mr_ws/build/control/build/lib/control/fake_odom_publisher.py -> /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control
+[1.415s] copying /home/essam/mr_ws/build/control/build/lib/control/odom_node.py -> /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control
+[1.415s] copying /home/essam/mr_ws/build/control/build/lib/control/logic.py -> /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control
+[1.416s] copying /home/essam/mr_ws/build/control/build/lib/control/encoder_speed_node.py -> /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control
+[1.416s] copying /home/essam/mr_ws/build/control/build/lib/control/__init__.py -> /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control
+[1.416s] byte-compiling /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control/functions.py to functions.cpython-310.pyc
+[1.418s] byte-compiling /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control/fake_odom_publisher.py to fake_odom_publisher.cpython-310.pyc
+[1.418s] byte-compiling /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control/odom_node.py to odom_node.cpython-310.pyc
+[1.419s] byte-compiling /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control/logic.py to logic.cpython-310.pyc
+[1.422s] byte-compiling /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control/encoder_speed_node.py to encoder_speed_node.cpython-310.pyc
+[1.423s] byte-compiling /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+[1.423s] running install_data
+[1.424s] creating /home/essam/mr_ws/install/control/share/ament_index/resource_index/packages
+[1.424s] copying resource/control -> /home/essam/mr_ws/install/control/share/ament_index/resource_index/packages
+[1.424s] copying package.xml -> /home/essam/mr_ws/install/control/share/control
+[1.424s] running install_egg_info
+[1.448s] Copying ../../build/control/control.egg-info to /home/essam/mr_ws/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[1.449s] running install_scripts
+[1.495s] Installing encoder_speed_node script to /home/essam/mr_ws/install/control/lib/control
+[1.495s] Installing fake_odom_publisher script to /home/essam/mr_ws/install/control/lib/control
+[1.495s] Installing functions script to /home/essam/mr_ws/install/control/lib/control
+[1.496s] Installing logic script to /home/essam/mr_ws/install/control/lib/control
+[1.496s] Installing odom_node script to /home/essam/mr_ws/install/control/lib/control
+[1.496s] writing list of installed files to '/home/essam/mr_ws/build/control/install.log'
+[1.520s] Invoked command in '/home/essam/mr_ws/src/control' returned '0': PYTHONPATH=/home/essam/mr_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/essam/mr_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/essam/mr_ws/build/control/build install --record /home/essam/mr_ws/build/control/install.log --single-version-externally-managed install_data
